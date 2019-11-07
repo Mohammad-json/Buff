@@ -1,3 +1,5 @@
+//If you don't like this help command, please check help2.js
+
 exports.run = async (client, message, args) => {
     const Discord = require("discord.js");
     if (!args[0]) {

@@ -1,3 +1,4 @@
+//The prefix set is in index.js, but here you need to enter the prefix, to run your bot. Enter embed color default too.
 {
   "prefix": "=",
   "embed_color_default": "0xff0000"

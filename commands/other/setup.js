@@ -1,0 +1,1 @@
+//It will setup every channels like logs, nsfw, reports, etc!

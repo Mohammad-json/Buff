@@ -1,7 +1,7 @@
+//If you don't like this help command, please check help.js
+
 const Discord = require ("discord.js");
-const fs = require("fs");///nice help me lol
-/// on what it loads all commands but doesnt sents the bot is up and its down
-//coe to ready.js ok
+const fs = require("fs");
 module.exports.run = async (bot, message, args) => {
 
     const infoList = fs.readFileSync("./info.txt", "utf8");
@@ -12,8 +12,11 @@ module.exports.run = async (bot, message, args) => {
     const generalCommands = fs.readFileSync("./general.txt", "utf8");
 
     let bicon = bot.user.displayAvatarURL;
+    
+    //Sends embed help to direct messages (dm)
     const client = message.guild.members.get(args[0]) || message.member;
-
+    
+    //Sends embed help to current channel
     //const client = message.channel || message.channel;
   
     const funEmbed = new Discord.RichEmbed()
@@ -49,7 +52,7 @@ module.exports.run = async (bot, message, args) => {
     .setColor("0xff0000")
     .setTitle("**__General Commands__**")
     .setDescription(generalCommands)
-    .setFooter("Buff | Made by psycho#4412 and SuperHero#0001 | Total Commands: 91")
+    .setFooter("Buff | Made by psycho#4412 | Total Commands: idk")
     
      client.send(genembed);
   

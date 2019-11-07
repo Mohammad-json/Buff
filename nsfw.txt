@@ -1,2 +1,2 @@
 Edit this to send nsfw category by executing command =help
-`Some nsfw????????????????`
+`If you want full list of nsfw commands, please type =nsfw command!`

@@ -1,9 +1,7 @@
-// This command requires the discord-js package to create embeds
 const Discord = require('discord.js');
 
 exports.run = async (client, message, args, tools) => {
 
-    // Permission Verification (Optional)
     if (!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('You need to have permission: `ADMINISTRATOR`!');
 
     if (!args[0]) return message.channel.send('Proper Usage: =poll [question]');
@@ -20,6 +18,6 @@ exports.run = async (client, message, args, tools) => {
     await msg.react('✅'); 
     await msg.react('❌');
 
-    message.delete({timeout: 1000}); // This waits 1000 milliseconds before deleting (1 second)
+    message.delete({timeout: 1000});
 
 } 

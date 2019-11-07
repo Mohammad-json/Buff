@@ -15,7 +15,6 @@ module.exports.run = async (bot, message, args) => {
     let reason = args.slice(2).join(" ");
 
     let muterole = message.guild.roles.find(`name`, "Muted");
-    //start of create role
     if (!muterole) {
         try {
             muterole = await message.guild.createRole({
@@ -33,7 +32,6 @@ module.exports.run = async (bot, message, args) => {
             console.log(e.stack);
         }
     }
-    //end of create role
     let mutetime = args[1];
     if (!mutetime) return message.reply("The role called `Muted` has been created!");
 

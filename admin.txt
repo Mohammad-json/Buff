@@ -1,7 +1,2 @@
-`=addrole` **Gives someone a role** __Usage__: *=addrole <@user> <role>*
-`=removerole` **Removes someone's role** __Usage__: *=removerole <@user> <role>*
-`=mute` **Mutes a user** __Usage__: *=mute <@user> <reason>*
-`=tempmute` **Temporary mutes a user** __Usage__: *=tempmute <@user> <time> <reason>*
-`=unmute` ** Unmutes a user** __Usage__: *=unmute <@user>*
-`=kick` **Kicks a user from the server** __Usage__: *=kick <@user> <reason>*
-`=purge` **Clears the chat** __Usage__: *=purge <amount>*
+Edit this to send admin category by executing command =help
+`=purge` **Purges a message** __Usage__: *=purge [amount]*

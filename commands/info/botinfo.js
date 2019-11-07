@@ -15,7 +15,6 @@
              
 
              let bicon = bot.user.displayAvatarURL;
-              //let duration = moment.duration(bot.uptime).format(" D [days], H [hrs], m [mins], s [secs]");
                   let uptime = ``;
     let totalSecs = (bot.uptime / 1000);
     let hours = Math.floor(totalSecs / 3600);

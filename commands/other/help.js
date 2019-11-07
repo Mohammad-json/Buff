@@ -1,7 +1,6 @@
-exports.run = async (client, message, args) => { // eco cmds: work, weekly, daily at rn
+exports.run = async (client, message, args) => {
     const Discord = require("discord.js");
-    if (!args[0]) { //restart + prefix + eval are unlisted
-      // inside a command, event listener, etc.
+    if (!args[0]) {
       const exampleEmbed = new Discord.RichEmbed()
         .setColor("#ff0000")
         .setTitle("Support Server")
@@ -20,7 +19,6 @@ exports.run = async (client, message, args) => { // eco cmds: work, weekly, dail
       message.channel.send(exampleEmbed);
     }
     let prefix = "=";
-    //mod cmds
     if(args[0] == "poll") {
         const banEmbed = new Discord.RichEmbed()
         .addField('Command Help: poll', 'Usage: `'+prefix+'poll message`\nAlias(es): `none`\nPermission(s): `ADMINISTRATOR`\nDescription: Makes a poll.')

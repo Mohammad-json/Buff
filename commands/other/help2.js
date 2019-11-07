@@ -14,10 +14,10 @@ module.exports.run = async (bot, message, args) => {
     let bicon = bot.user.displayAvatarURL;
     
     //Sends embed help to direct messages (dm)
-    const client = message.guild.members.get(args[0]) || message.member;
+    //const client = message.guild.members.get(args[0]) || message.member;
     
     //Sends embed help to current channel
-    //const client = message.channel || message.channel;
+    const client = message.channel || message.channel;
   
     const funEmbed = new Discord.RichEmbed()
     .setColor("0xff0000")

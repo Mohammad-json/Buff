@@ -5,12 +5,12 @@ exports.run = (client, message, args) => {
           message.reply("you need mention a user for this command! For example =avatar @psycho#4412");
         return;
     } else {
-        let user = message.mentions.users.first(); // Mentioned user
-        let image = user.displayAvatarURL; // Get image URL
+        let user = message.mentions.users.first();
+        let image = user.displayAvatarURL;
         let embed = new Discord.RichEmbed()
-            .setAuthor(`${user.username}#${user.discriminator}`) // Set author
-            .setColor("0xff0000") // Set color (If you don't have ideas or preference, use RANDOM for random colors)
-            .setImage(image) // Set image in embed
-        message.channel.send(embed); // Send embed
+            .setAuthor(`${user.username}#${user.discriminator}`)
+            .setColor("0xff0000")
+            .setImage(image)
+        message.channel.send(embed);
     }
 }

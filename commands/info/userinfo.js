@@ -1,5 +1,3 @@
-// We require 2 packages - discord.js & moment
-// `npm i moment` 
 const Discord = require('discord.js'); 
 const moment = require('moment');
 
@@ -15,9 +13,8 @@ exports.run = async (client, message, args) => {
 
      const member = message.guild.member(user);
 
-     // Forming the Embed
-     const embed = new Discord.RichEmbed() // Use Discord.MessageEmbed if you use the master version
-        .setColor('0xff0000') // I just put random in here, but you can chnage it to anything else.
+     const embed = new Discord.RichEmbed()
+        .setColor('0xff0000')
         .setThumbnail(user.avatarURL)
         .setTitle(`${user.username}#${user.discriminator}`)
         .addField('ID:', `${user.id}`, true)
@@ -29,7 +26,6 @@ exports.run = async (client, message, args) => {
         .addField('Roles:', member.roles.map(roles => `${roles.name}`).join(', '), true)
         .setFooter(`Replying to ${message.author.username}#${message.author.discriminator}`)
 
-    // Send the Embed
     message.channel.send({embed});
 
 }

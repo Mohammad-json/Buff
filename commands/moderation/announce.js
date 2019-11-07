@@ -1,5 +1,4 @@
 const Discord = require('discord.js');
-//hi lol
 module.exports.run = async (bot, message, args) => {
   
     if (!message.member.hasPermission("ADMINISTRATOR")) {

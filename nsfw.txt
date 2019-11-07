@@ -1,1 +1,2 @@
+Edit this to send nsfw category by executing command =help
 `Full list of NSFW commands was sent to you in Direct Messages!`

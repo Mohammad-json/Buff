@@ -1,5 +1,4 @@
 const mapping = '¡"#$%⅋,)(*+\'-˙/0ƖᄅƐㄣϛ9ㄥ86:;<=>?@∀qƆpƎℲפHIſʞ˥WNOԀQɹS┴∩ΛMX⅄Z[/]^_`ɐqɔpǝɟƃɥᴉɾʞlɯuodbɹsʇnʌʍxʎz{|}~';
-// Start with the character '!'
 const OFFSET = '!'.charCodeAt(0);
 
 exports.run = (bot, message, args) => {

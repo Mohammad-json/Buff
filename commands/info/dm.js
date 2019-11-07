@@ -16,7 +16,7 @@ module.exports.run = async (bot, message, args) => {
    .setThumbnail(Owner.displayAvatarURL)
    .setTitle("You got new message!")
    .addField("Message:", sayMessage)
-   .addField("Message from:", "[Click here!](https://discordapp.com/invite/CaBVadF)")
+   .addField("Message from:", "[Click Here!](https://discordapp.com/invite/CaBVadF)")
    .setTimestamp()
    
     bot.users.get(id).send(contact);

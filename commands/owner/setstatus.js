@@ -1,7 +1,8 @@
+//Make sure to enter your User ID!
 exports.run = (client, message, args) => {
     const setStatus = message.content.split(' ');
 
-  if (message.author.id !== ('400703871086886913')) return message.channel.send("You cant use this command!");
+  if (message.author.id !== ('400703871086886915')) return message.channel.send("You cant use this command!");
 
     else if(setStatus[1] === 'idle'){
         client.user.setStatus('idle')

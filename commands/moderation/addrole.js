@@ -2,7 +2,6 @@ const Discord = require("discord.js");
 
 module.exports.run = async (bot, message, args) => {
 
-  //!addrole <@user> <Role>
   if(args[0] == "help"){
     let helpembxd = new Discord.RichEmbed()
     .setColor("0xff0000")

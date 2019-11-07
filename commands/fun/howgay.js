@@ -1,6 +1,5 @@
 exports.run = (client,message,args) => {
     const Discord = require('discord.js');
-   // const howgayembed = new Discord.RichEmbed()
    function getRandomInt(max) {
     return Math.floor(Math.random() * Math.floor(max));
   }
@@ -17,5 +16,4 @@ exports.run = (client,message,args) => {
     .setDescription(`${args[0]} is `+getRandomInt(101)+`% gay!`);
     message.channel.send(howgayembed);
 	}
-	//message.channel.send(howgayembed);
 }

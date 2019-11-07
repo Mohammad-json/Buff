@@ -1,4 +1,5 @@
-const http = require('http');
+//If you want to host your bot on glitch.com, all u need is use uptimerobot.com
+/* const http = require('http');
 const express = require('express');
 const app = express();
 app.get("/", (request, response) => {
@@ -8,7 +9,7 @@ app.get("/", (request, response) => {
 app.listen(process.env.PORT);
 setInterval(() => {
   http.get(`http://${process.env.PROJECT_DOMAIN}.glitch.me/`);
-}, 280000);
+}, 280000); */
 
 //Packages
 const Discord = require("discord.js");
@@ -21,20 +22,16 @@ const prompter = require("discordjs-prompter");
 const config = require("./config.json");
 client.config = config;
 
+//You can change any prefix in here, default is "="
 const PREFIX = "=";
 const ownerID = process.env.OWNER;
 
+//The client game is on events/ready.js
 /*client.on("ready", () => {
-  client.user.setPresence({ game: { name: `buffbot.ml | =help` }, type: 0 });
+  client.user.setPresence({ game: { name: `buffbot.7m.pl | =help` }, type: 0 });
 });*/
 
-//Defitions
-/*const config = require("./config/defconfig.json");
-client.config = config;
-client.log = require('./util/Logger');*/
-
 //Event Handler
-
 fs.readdir("./events/", (err, files) => {
   if (err) return console.error(err);
   files.forEach(file => {
@@ -49,7 +46,6 @@ client.commands = new Enmap();
 client.talkedRecently = new Set();
 let cmdsnumber = 0;
 client.cmds = cmdsnumber;
-//from this
 
 fs.readdir("./commands/moderation/", (err, files) => {
   if (err) return console.error(err);
@@ -144,7 +140,7 @@ fs.readdir("./commands/owner/", (err, files) => {
 //Welcomer
 
 //Login as client
-client.login("NjM3NjUwNTQwNTYxNjk0NzMw.Xb3bng.iD5En3-fPNT2IaMhSy_mbWhXR-E");
+client.login("YOUR-BOT-TOKEN");
 /*
-https://discordapp.com/oauth2/authorize?client_id=637650540561694730&scope=bot&permissions=8
+https://discordapp.com/oauth2/authorize?client_id=PUTTHEREYOURBOTCLIENTID&scope=bot&permissions=8
 */

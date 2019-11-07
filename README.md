@@ -1,2 +1,10 @@
-# Buff
-Buff - best Discord bot including free bot source code, website (dashboard), Documentation (docs)!
+Buff
+=================
+
+
+Multi Purpose Discord Bot!
+------------
+
+
+Made by [psycho#4412](https://glitch.com/)
+-------------------

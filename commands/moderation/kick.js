@@ -11,8 +11,6 @@ exports.run = (client, message, args) => {
         if(!member.kickable) 
             return message.channel.send("I cannot kick this member! Make sure my role is higher than specified role with kick permission.");
 
-        // slice(1) removes the first part, which here should be the user mention or ID
-        // join(' ') takes all the various parts to make it a single string.
         let reason = args.slice(1).join(' ');
         if(!reason) 
             reason = "no reason provided.";

@@ -1,3 +1,4 @@
+//This is message.js event. Change message author ID to yours.
 const Discord = require("discord.js");
 module.exports = (client, message) => {
   try {
@@ -49,7 +50,7 @@ module.exports = (client, message) => {
         .includes("bruh moment") &&
       message.author.id != "427491040468140043"
     )
-      message.reply("https://youtu.be/V263ad2e2uk");
+      message.reply("Wow!");
   } catch (err) {
     console.log(`Error: ${err}`);
   }
@@ -62,10 +63,10 @@ module.exports = (client, message) => {
       .match(/(\sarch[^\w])|(\sarch$)|(^arch$)|(^arch\s)/gm)
   ) {
     let arches = [
-      "I use arch btw",
-      "btw I use arch",
-      "btw did I tell you I use arch?",
-      "also just so you know, I use arch"
+      "woWo",
+      "wew",
+      "WOWOOWO",
+      "wow"
     ];
     message.reply(arches[Math.floor(Math.random() * arches.length)]);
   }
@@ -78,7 +79,7 @@ module.exports = (client, message) => {
     .split(/ +/g);
   const command = args.shift().toLowerCase();
   /*
-    let owolist = ["owo", "uwu", "ywy", "0w0", "3w3", "øwø", "ôwô", "õwõ", "OuO", "OwO", "UwU"]
+    let owolist = ["wow""]
     owolist.forEach(x => {
            if(message.content.includes(x)) {
                console.log('owo detected')

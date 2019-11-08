@@ -4,7 +4,7 @@
 
 [![](https://img.shields.io/discord/565048515357835264.svg?logo=discord&colorB=7289DA)](http://buffbot.7m.pl/)
 
-> This bot is used by more than 30000 Discord users and more than 600 servers.
+> This bot is used by more than 30000 Discord users in more than 600 servers.
 
 Buff is a open source Discord bot coded in JavaScript with [Discord.js](https://discord.js.org) by [psycho#4412](https://discordapp.com/invite/CaBVadF).  
 Feel free to add a star ⭐ to the repository for all my hard work and motivation to improve this project.
@@ -23,23 +23,23 @@ Buff offers:
 ### Many commands
 
 Buff has a lot of features, with **7 main categories**:
-
+The default prefix for the bot is "**=**"!
 *   🚓 **Moderation**: `giveaway`, `poll`, `purge`, `mute`, and **7** more! 
 *   👻 **Fun**: `meme`, `8ball`, `cat`, `dog`, `ping` and **18** more! 
-*   🎵 **Music**: `play`, `skip`, `queue`, `np`, and **2** more! 
-*   💰 **Economy**: `profile`, `work`, `badge`, `slots`, `balance`, `leaderboard`, and **6** more! 
-*   🖨️ **Info**: `minimize`, `setafk`, `translate`, `remindme`, `hastebin`, `fortnite`, `minecraft` and **10** more! 
-*   🖨️ **General**: `minimize`, `setafk`, `translate`, `remindme`, `hastebin`, `fortnite`, `minecraft` and **10** more! 
-*   🚓 **NSFW**: `see-warns`, `setlogs`, `checkinvites`, `poll`, and **6** more! 
-*   👑 **Owner**: `eval`, `getinvite`, `servers-list` and **2** more!
+*   🎵 **Music**: `play`, `search`, `leave`, and **more** is coming soon! 
+*   💰 **Economy**: **Coming Soon**! 
+*   🖨️ **Info**: `botinfo`, `userinfo`, `serverinfo`, `roleinfo`, and **7** more! 
+*   🖨️ **General**: `help`, `help2`, `avatar`, `report`, `suggest`, and **2** more! 
+*   🚓 **NSFW**: write command `nsfw`, to get full list of NSFW commads!! 
+*   👑 **Owner**: `eval`, `restart`, `owner`, `setlistening` and **4** more!
 
-[See the full commands list](https://www.atlanta-bot.fr/commands)
+See the full list of commands by writing =help or =help2 (Commands are different. Use which one you like)
 
-### A powerful Dashboard
+### Official Website
 
-Atlanta has its own dashboard which also offers many features! The dashboard runs with Express and EJS!
+Buff have its official Website! (OAuth2, dashboard is coming in the future. If you can help me with it, please contact me in Discord psycho#4412. Latest check date: 2019-11-09)
 
-<img align="left" style="float: centrer; margin: 0 10px 0 0;" src="https://zupimages.net/up/19/31/c3ya.png" height="200" width="350"/>
+<img align="left" style="float: centrer; margin: 0 10px 0 0;" src="https://prnt.sc/puczrj.png" height="200" width="350"/>
 <img align="center" style="float: left; margin: 0 10px 0 0;" src="https://zupimages.net/up/19/31/vnq5.png" height="200" width="350"/>
 <img align="center" style="float: centrer; margin: 0 10px 0 0;" src="https://zupimages.net/up/19/31/htga.png" height="200" width="350"/>
 

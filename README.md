@@ -43,39 +43,33 @@ Buff have its official Website! (OAuth2, dashboard is coming in the future. If y
 <img align="center" style="float: left; margin: 0 10px 0 0;" src="http://buffbot.7m.pl/images/2.png" height="200" width="350"/>
 <img align="center" style="float: centrer; margin: 0 10px 0 0;" src="http://buffbot.7m.pl/images/3.png" height="200" width="350"/>
 
-You can directly **edit your configuration**, **manage your servers**, **view rankings**, **modify your profile** and much more!
-
-> Find the code in the dashboard folder! 
-
 ## Installation
 
 ### Non-customized version
 
 If you don't want to edit the code of the bot, a permanent online version is available, which you can invite to your own Discord!   
 
-[![Discord Bots](https://discordbots.org/api/widget/557445719892688897.svg)](https://discordbots.org/bot/557445719892688897)
+[![Discord Bots](https://discordbots.org/api/widget/5574457198926888777.svg)](https://discordbots.org/bot/55744885719892688897)
 
 ### Customized version
 
 If you want to edit the bot's code and host it on your machine, it's possible!  
-You must follow the [installation guide](https://www.atlanta-bot.fr/installation/) to properly install it! Don't worry, it's fast and simple if you follow the guide!
+You must watch the [installation guide](youtube.com) on YouTube to properly install it! Don't worry, it's fast and simple if you follow the guide!
 
 ## Links
 
-*   [Commands List](https://www.atlanta-bot.fr/commands)
-*   [Installation Guide](https://www.atlanta-bot.fr/installation)
-*   [F.A.Q](https://www.atlanta-bot.fr/faq/)
-*   [Discord](https://discord.atlanta-bot.fr)
-*   [Twitter](https://twitter.com/AtlantaBot)
-*   [Github](https://github.com/AtlantaBot)
-*   [Dashboard](https://dashboard.atlanta-bot.fr)
+*   [Support Server](https://discordapp.com/invite/CaBVadF)
+*   [Website](http://buffbot.7m.pl/)
+*   [Documentation](http://buffbot.7m.pl/docs/)
+*   [GitHub](https://github.com/DNDCoding/Buff)
+*   [Installation Guide](youtube.com)
 
 ## Contributing
 
-Before **creating an issue**, please ensure that it hasn't already been reported/suggested, and double-check the [F.A.Q](https://www.atlanta-bot.fr/faq).   
-And if you have a question, please ask it in the [Discord server](https://discord.atlanta-bot.fr/) instead of opening an issue.
-If you wish to contribute to the Atlanta codebase or documentation, feel free to fork the repository and submit a pull request!
+Before **creating an issue**, please ensure that it hasn't already been reported/suggested.
+And if you have a question, please ask it in the [support server](https://discordapp.com/invite/CaBVadF) instead of opening an issue.
+If you wish to contribute to the Buff codebase or documentation, feel free to fork the repository and submit a pull request!
 
 ## License
 
-Atlanta is licensed under the GPL 3.0 license. See the file `LICENSE` for more information. If you plan to use any part of this source code in your own bot, I would be grateful if you would include some form of credit somewhere.
+Buff is licensed under the GPL 3.0 license. See the file `LICENSE` for more information. If you plan to use any part of this source code in your own bot, I would be grateful if you would include some form of credit somewhere.

@@ -39,7 +39,7 @@ See the full list of commands by writing =help or =help2 (Commands are different
 
 Buff have its official Website! (OAuth2, dashboard is coming in the future. If you can help me with it, please contact me in Discord psycho#4412. Latest check date: 2019-11-09)
 
-<img align="left" style="float: centrer; margin: 0 10px 0 0;" src="https://prnt.sc/puczrj.png" height="200" width="350"/>
+<img align="left" style="float: centrer; margin: 0 10px 0 0;" src="" height="200" width="350"/>
 <img align="center" style="float: left; margin: 0 10px 0 0;" src="https://zupimages.net/up/19/31/vnq5.png" height="200" width="350"/>
 <img align="center" style="float: centrer; margin: 0 10px 0 0;" src="https://zupimages.net/up/19/31/htga.png" height="200" width="350"/>
 

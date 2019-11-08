@@ -22,7 +22,7 @@ Buff offers:
 
 ### Many commands
 
-Buff has a lot of features, with **7 main categories**:
+Buff has a lot of features, with **8 main categories**:
 The default prefix for the bot is "**=**"!
 *   🚓 **Moderation**: `giveaway`, `poll`, `purge`, `mute`, and **7** more! 
 *   👻 **Fun**: `meme`, `8ball`, `cat`, `dog`, `ping` and **18** more! 

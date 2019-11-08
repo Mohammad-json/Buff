@@ -16,9 +16,9 @@ Feel free to add a star ⭐ to the repository for all my hard work and motivatio
 Buff offers:
 *   Much good commands including rarest ones (giveaway, moderation, etc)
 *   99,99 Uptime (Hosted in glitch.com)
-*   Support Server [Buff Support](https://discordapp.com/invite/CaBVadF)
-*   Official Website [Dashboard](http://buffbot.7m.pl/]
-*   Documentation Website [Docs](http://buffbot.7m.pl/docs/]
+*   Support Server: [Buff Support](https://discordapp.com/invite/CaBVadF)
+*   Official Website: [Dashboard](http://buffbot.7m.pl/)
+*   Documentation Website: [Docs](http://buffbot.7m.pl/docs/)
 
 ### Many commands
 
@@ -39,9 +39,9 @@ See the full list of commands by writing =help or =help2 (Commands are different
 
 Buff have its official Website! (OAuth2, dashboard is coming in the future. If you can help me with it, please contact me in Discord psycho#4412. Latest check date: 2019-11-09)
 
-<img align="left" style="float: centrer; margin: 0 10px 0 0;" src="" height="200" width="350"/>
-<img align="center" style="float: left; margin: 0 10px 0 0;" src="https://zupimages.net/up/19/31/vnq5.png" height="200" width="350"/>
-<img align="center" style="float: centrer; margin: 0 10px 0 0;" src="https://zupimages.net/up/19/31/htga.png" height="200" width="350"/>
+<img align="left" style="float: centrer; margin: 0 10px 0 0;" src="http://buffbot.7m.pl/images/1.png" height="200" width="350"/>
+<img align="center" style="float: left; margin: 0 10px 0 0;" src="http://buffbot.7m.pl/images/2.png" height="200" width="350"/>
+<img align="center" style="float: centrer; margin: 0 10px 0 0;" src="http://buffbot.7m.pl/images/3.png" height="200" width="350"/>
 
 You can directly **edit your configuration**, **manage your servers**, **view rankings**, **modify your profile** and much more!
 

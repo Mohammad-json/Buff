@@ -43,6 +43,15 @@ Buff have its official Website! (OAuth2, dashboard is coming in the future. If y
 <img align="center" style="float: left; margin: 0 10px 0 0;" src="http://buffbot.7m.pl/images/2.png" height="200" width="350"/>
 <img align="center" style="float: centrer; margin: 0 10px 0 0;" src="http://buffbot.7m.pl/images/3.png" height="200" width="350"/>
 
+Todo list:
+
+- OAuth2
+- Better dashboard
+- Improve design
+- Customizable prefixes per server
+- Much More that associates with dashboard things
+##### Wanna help me? Dm psycho#4412 on Discord. Also, i'll give u credits and nitro as a gift.
+
 ## Installation
 
 ### Non-customized version

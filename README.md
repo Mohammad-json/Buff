@@ -6,6 +6,8 @@
 
 > This bot is used by more than 30000 Discord users in more than 600 servers.
 
+# Who will help me with OAuth2, Dashboard, Design please direct message (dm) me in Discord psycho#4412 and you will get credited also you will receive 1 Year Nitro Gift as reward :)
+
 Buff is a open source Discord bot coded in JavaScript with [Discord.js](https://discord.js.org) by [psycho#4412](https://discordapp.com/invite/CaBVadF).  
 Feel free to add a star ⭐ to the repository for all my hard work and motivation to improve this project.
 

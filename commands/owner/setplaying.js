@@ -2,7 +2,7 @@
 const Discord = require('discord.js');
 
 module.exports.run = (client, message, args) => {
-  if (message.author.id !== ('400703871086886915") return message.channel.send("You cant use this command!");
+  if (message.author.id !== ("400703871086886915")) return message.channel.send("You cant use this command!");
   const status = args.join(' ');
   if (status.length === 0) {
     const embed = new Discord.RichEmbed()
